@@ -7,7 +7,7 @@
     text-align: center;
     word-spacing: 30px;
     font-size: 40px;
-  
+   margin-top: 40px;
     
     
 }
@@ -20,6 +20,7 @@ a:hover{
     display: inline;
 }
 ul li a{
+    text-transform: uppercase;
     text-decoration: none;
 }
 .con1{

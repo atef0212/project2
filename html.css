@@ -23,7 +23,7 @@ ul li a{
     text-decoration: none;
 }
 .con1{
-border: 2px black solid;
+border: 2px black hidden;
     color:gb(10, 10, 10);
     position: relative;
     left: 100px;

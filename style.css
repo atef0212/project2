@@ -1,0 +1,61 @@
+.navin{
+    width: 100vw;
+    text-align: center;
+    word-spacing: 30px;
+    font-size: 40px;
+  
+    
+    
+}
+.navin ul li{
+  
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+}
+h1{
+    color: blue;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+h1 a{
+    text-decoration: none;
+}
+
+article p{
+   
+    border: 2px black hidden;
+    width: 900px;
+ color: black;
+ font-size: 25px;
+ font-weight: 350;
+ text-justify: auto;
+ margin: 0;
+ padding: 0;
+}
+footer{
+    border: 2px black hidden;
+    position: relative;
+    left: 0px;
+    top: 60px;
+    font-size: 25px;
+    width: fit-content;
+
+}
+
+footer ul li {
+
+    display: inline-block;
+    color: rgb(6, 10, 243);
+}
+footer ul {
+    border: 2px black hidden;
+    width: 400px;
+    position: absolute;
+    top: 59px;
+    right: -90px;
+    text-align: left;
+} 

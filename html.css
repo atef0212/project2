@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navin{
+    width: 100vw;
+    text-align: center;
+    word-spacing: 30px;
+    font-size: 40px;
+  
+    
+    
+}
+a:hover{
+    background-color: blanchedalmond;
+    color: blue;
+}
+.navin ul li{
+  
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+}
+.con1{
+border: 2px black solid;
+    color:gb(10, 10, 10);
+    position: relative;
+    left: 100px;
+    width: 650px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   
+}
+.con1 h1{
+    color: white;
+    text-align: center;
+    text-shadow: blue;
+}
+.con1 p{
+    font-size: 23px;
+
+}

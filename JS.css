@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navin{
+    width: 100vw;
+    text-align: center;
+    word-spacing: 30px;
+    font-size: 40px;
+  
+    
+    
+}
+a:hover{
+    background-color: blanchedalmond;
+    color: blue;
+}
+.navin ul li{
+  
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+}
+body{
+    background-image: url(./JavaScript-logo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   height: 30vh;
+}
+.divjs{
+    border: 2px black solid;
+    color: rgb(10, 10, 10);
+    width: 600px;
+    height: 800px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    height: fit-content;
+}
+h1{
+    border: 2px black solid;
+    width: 100rm;
+    text-align: center;
+}
+p{
+    border: 2px black solid;
+    width: 100rm;
+}

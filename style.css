@@ -57,7 +57,7 @@ div p{
  padding: 0;
 }
 footer{
-   border: 2px black solid;
+   border: 4px rgb(77, 6, 241) solid;
    position: relative;
    top: 60px;
    left: 30%;
@@ -65,9 +65,15 @@ footer{
  text-align: center;
  background-color: bisque;
  width: 700px;
- border-radius: 40%;
+ /* height: 500px; */
+ border-radius: 60%;
  padding-top: 10px;
- 
+
+}
+footer:hover{
+    width: 500px;
+    background-color: rgb(13, 218, 30);
+    
 }
 
 footer ul li {
@@ -77,6 +83,16 @@ footer ul li {
 }
 aside{
     position: relative;
+    animation-name: ata;
+    animation-duration: 5s;
+}
+@keyframes ata{
+    from{
+        width: 0;
+    }
+    to{
+        width: 70vw;
+    }
 }
 aside{
     content: "";
@@ -88,4 +104,6 @@ aside{
     background-image: url(./pexels-photo-270632.jpeg);
     background-size: contain;
     
+    
 }
+

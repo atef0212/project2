@@ -7,7 +7,7 @@
     text-align: center;
     word-spacing: 30px;
     font-size: 40px;
-   margin-top: 40px;
+   margin-top: 0px;
     
     
 }
@@ -27,18 +27,74 @@ ul li a{
 border: 2px black hidden;
     color:gb(10, 10, 10);
     position: relative;
-    left: 100px;
-    width: 650px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+ 
 }
+   
+
 .con1 h1{
-    color: white;
+    color: rgb(247, 2, 2);
     text-align: center;
     text-shadow: blue;
 }
+p, h1{
+    border: 2px black solid;
+    height: fit-content;
+    width: 500px;
+    padding: 10px;
+}
+p{
+font-weight: bold;
+    color: rgb(3, 3, 3);
+    background-color: white;
+}
+h1{
+    
+    font-size: 40px;
+    font-family: fantasy;
+}
+
 
 .con1 p{
     font-size: 23px;
 
+}
+.div2{
+    margin: 10px;
+}
+.div1{
+  width: 40px;
+  height: 40px;
+    background-image: url(./icons8-html-48.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-name: ht;
+    animation-duration: 3s;
+    
+}
+@keyframes ht{
+    0%{
+        translate: 0 0;
+    }
+    25%{
+        translate: 0 800px;
+    }
+    50%{
+        translate: 1700px 800px;
+    }
+    75%{
+        translate: 1700px 0;
+    }
+    100%{
+        translate: 0 0;
+    }
 }

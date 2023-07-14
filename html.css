@@ -2,21 +2,41 @@
     padding: 0;
     margin: 0;
 }
+
 .navin{
     width: 100vw;
-    text-align: center;
-    word-spacing: 30px;
+ 
+    word-spacing: 40px;
     font-size: 40px;
-   margin-top: 0px;
+   margin-top: 5px;
+   position: relative;
+   left: 30%;
     
     
+}
+.na{
+  
+
+   height: 45px;
+    border: 2px black hidden;
+    width: 580px;
+    border-radius: 8%;
+    text-align: center;
+    
+}
+.ain{
+    background-color: aquamarine;
+    border: 2px black solid;
+    border-radius: 10%;
+    
+    height: 10px;
 }
 a:hover{
     background-color: blanchedalmond;
     color: blue;
 }
 .navin ul li{
-  
+    
     display: inline;
 }
 ul li a{
@@ -45,7 +65,7 @@ border: 2px black hidden;
     text-shadow: blue;
 }
 p, h1{
-    border: 2px black solid;
+    border: 2px black hidden;
     height: fit-content;
     width: 500px;
     padding: 10px;

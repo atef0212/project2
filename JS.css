@@ -1,51 +1,123 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
+} */
+body{
+    background-image: url(./JavaScript-logo.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+  height: 300px;
+   
 }
 .navin{
     width: 100vw;
-    text-align: center;
-    word-spacing: 30px;
+ 
+    word-spacing: 40px;
     font-size: 40px;
+   margin-top: 5px;
+   position: relative;
+   left: 30%;
+    
+    
+}
+.na{
   
+
+   height: 45px;
+    border: 2px black hidden;
+    width: 580px;
+    border-radius: 8%;
+    text-align: center;
     
+}
+.ain{
+    background-color: aquamarine;
+    border: 2px black hidden;
+    border-radius: 10%;
     
+    height: 10px;
 }
 a:hover{
     background-color: blanchedalmond;
     color: blue;
 }
 .navin ul li{
-  
+    
     display: inline;
 }
 ul li a{
     text-transform: uppercase;
     text-decoration: none;
 }
-body{
-    background-image: url(./JavaScript-logo.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-   height: 30vh;
+main{
+
+    border: 2px black hidden;
+    width: 800px;
 }
-.divjs{
-    border: 2px black solid;
-    color: rgb(10, 10, 10);
-    width: 600px;
-    height: 800px;
-    position: relative;
-    left: 10%;
-    top: 10%;
-    height: fit-content;
+.hh1{
+    text-align: center;
+    padding: 20px;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-h1{
-    border: 2px black solid;
-    width: 100rm;
+h2{
+    font-weight: bold;
+    margin-left: 20px;
+}
+ul{
+    list-style-type: circle;
+}
+main li{
+font-size: 25px;
+
+
+}
+.div1{
+
+border: 2px black hidden;
+width: 850px;
+}
+.div1 p{
+    font-size: 25px;
+    padding-left: 10px;
+}
+#learn{
+    color: blue;
+    border: 2px black hidden;
     text-align: center;
 }
-p{
-    border: 2px black solid;
-    width: 100rm;
+.con{
+    border: 2px black hidden;
+    width: 850px;
+
+}
+#sc{
+    border: 2px black hidden;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+section p{
+    font-size: 25px;
+    padding-left: 10px;
+}
+#bu{
+  margin-left: 150px;
+  margin-top: 10px;
+    
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#ex{
+    padding-top: 15px;
+}
+.a{
+
+    text-decoration: none;
+    color: blue;
+}
+.a:hover{
+    color: brown;
 }

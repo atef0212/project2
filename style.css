@@ -1,4 +1,7 @@
-
+body {
+    margin: 0;
+    padding: 0; 
+    overflow-x: hidden; }
 .navin{
     width: 100vw;
  
@@ -22,7 +25,7 @@
 }
 .ain{
     background-color: aquamarine;
-    border: 2px black solid;
+    border: 2px rgb(4, 58, 236) solid;
     border-radius: 10%;
     
     height: 10px;
@@ -62,7 +65,7 @@ div{
 position: relative;
 
 left: 25%;
-    width: fit-content;
+    width: 900px;
 }
 
 div p{
@@ -88,12 +91,36 @@ footer{
  /* height: 500px; */
  border-radius: 60%;
  padding-top: 10px;
+ animation-name: footer;
+ animation-duration: 9s;
+ animation-iteration-count: infinite;
+ animation-delay: 4s;
 
 }
-footer:hover{
-    width: 500px;
-    background-color: rgb(13, 218, 30);
-    
+@keyframes footer{
+    0%{
+        
+        background-color: aqua;
+    }
+    25%{
+        background-image: url(./icons8-html-48.png);
+       
+    }
+    50%{
+        background: url(./JavaScript-logo.png);
+        translate: 300px 0;
+        background-color: rgb(0, 255, 128);
+        transform: rotateY(180deg);
+    }
+    75%{
+        background: url(./JavaScript-logo.png);
+        border-radius: 15%;
+     
+    }
+    100%{
+        background-image: url(./icons8-snake-48.png);
+
+    }
 }
 
 footer ul li {
@@ -107,12 +134,12 @@ aside{
     animation-duration: 5s;
 }
 @keyframes ata{
-    from{
-        width: 0;
-    }
-    to{
-        width: 70vw;
-    }
+from{
+    width: 0;
+}
+to{
+    width: 800px;
+}
 }
 aside{
     content: "";

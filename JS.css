@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 0; 
+    overflow-x: hidden; }
 body{
     background-image: url(./JavaScript-logo.png);
     background-repeat: no-repeat;
@@ -95,6 +99,7 @@ width: 850px;
     padding-left: 10px;
     font-weight: bold;
     font-size: 30px;
+    color: blue;
 }
 section p{
     font-size: 25px;
@@ -118,4 +123,12 @@ section p{
 }
 .a:hover{
     color: brown;
+}
+input{
+    margin: 20px;
+    
+}
+#sc1{
+    margin-left: 20px;
+    color: blue;
 }

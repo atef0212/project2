@@ -145,7 +145,7 @@ to{
 }
 }
 aside{
-    content: "";
+    /* content: ""; */
     color: brown;
     position: absolute;
     top: 0px;

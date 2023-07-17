@@ -78,10 +78,27 @@ font-weight: bold;
     background-color: white;
 }
 h1{
-    
+    animation-name: ate1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+   animation-iteration-count: infinite;
+   background-repeat: no-repeat;
     font-size: 40px;
     font-family: fantasy;
+    
 }
+@keyframes ate1{
+    from{
+        opacity:0.4 ;
+        
+    }
+    to{
+        opacity: 0.9;
+        color: blue;
+        background-image: url(./icons8-html-48.png);
+    }
+}
+
 
 
 .con1 p{
@@ -103,6 +120,7 @@ h1{
     left: 0;
     animation-name: ht;
     animation-duration: 3s;
+
     
 }
 @keyframes ht{

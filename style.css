@@ -132,13 +132,16 @@ aside{
     position: relative;
     animation-name: ata;
     animation-duration: 5s;
+    animation-iteration-count: 3;
 }
 @keyframes ata{
 from{
     width: 0;
+    opacity: 0.9;
 }
 to{
-    width: 800px;
+    width: 450px;
+    opacity: 0.3;
 }
 }
 aside{
@@ -148,9 +151,32 @@ aside{
     left: 0;
     bottom: 0;
     width: 15%;
+    
     background-image: url(./pexels-photo-270632.jpeg);
     background-size: contain;
     
     
 }
+div img{
+    
+        animation-name: ate1;
+        animation-duration: 2s;
+        animation-delay: 5s;
+       
+       background-repeat: no-repeat;
+      
+        
+    }
+    @keyframes ate1{
+        from{
+            opacity:0.4 ;
+            height: 0px;
+            
+        }
+        to{
+            opacity: 9;
+           height: 50px;
+           }
+    }
+
 
